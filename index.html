@@ -3,81 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae | Britany Olivo</title>
+    <meta name="description" content="Currículum Vitae de Britany Lisseth Olivo Mendieta, estudiante de Ingeniería en Sistemas.">
+    <title>CV | Britany Lisseth Olivo Mendieta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- HEADER -->
+    <!-- HEADER CON FOTOGRAFÍA DE PERFIL -->
     <header id="inicio">
         <div class="perfil">
-            <img src="perfil.png" alt="Fotografía de perfil">
+            <img src="perfil.png" alt="Fotografía de perfil de Britany Lisseth Olivo Mendieta">
+
             <div class="presentacion">
                 <p class="saludo">Hola, soy</p>
-                <h1>Britany Lisseth Olivo Mendieta</h1>
+                <h1>Olivo Mendieta Britany Lisseth</h1>
                 <p class="profesion">Estudiante de Ingeniería en Sistemas</p>
+                <a class="boton-principal" href="#contacto">Contactarme</a>
             </div>
         </div>
     </header>
 
     <!-- MENÚ DE NAVEGACIÓN -->
-    <nav>
+    <nav aria-label="Navegación principal">
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#acerca">Acerca de mí</a></li>
             <li><a href="#formacion">Formación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main class="contenedor">
+
+        <!-- ACERCA DE MÍ -->
         <section id="acerca" class="tarjeta">
             <h2>Acerca de mí</h2>
+
             <p>
-                Soy estudiante de Ingeniería en Sistemas con interés en la tecnología,
-                el desarrollo web y el aprendizaje continuo. Me considero una persona
-                responsable, creativa y comprometida con las actividades académicas.
-                Mi objetivo es fortalecer mis conocimientos y adquirir experiencia en
-                el área de desarrollo de software y tecnologías de la información.
+                Soy estudiante de Ingeniería en Sistemas y bachiller en Informática.
+                Me caracterizo por mi creatividad, profesionalismo y capacidad para
+                trabajar en equipo. Tengo interés en seguir fortaleciendo mis
+                conocimientos tecnológicos y desarrollar nuevas habilidades que me
+                permitan crecer académica y profesionalmente.
             </p>
         </section>
 
+        <!-- FORMACIÓN ACADÉMICA -->
         <section id="formacion" class="tarjeta">
             <h2>Formación académica</h2>
+
             <div class="estudio">
                 <h3>Ingeniería en Sistemas</h3>
-                <p>Universidad Técnica Estatal de Quevedo</p>
+                <p>Formación universitaria</p>
                 <span>En curso</span>
             </div>
+
             <div class="estudio">
-                <h3>Bachillerato</h3>
-                <p>Formación secundaria culminada</p>
+                <h3>Bachillerato en Informática</h3>
+                <p>Unidad Educativa “Oswaldo Guayasamín”</p>
                 <span>Finalizado</span>
             </div>
         </section>
 
+        <!-- HABILIDADES -->
         <section id="habilidades" class="tarjeta">
             <h2>Habilidades</h2>
-            <ul class="lista-habilidades">
-                <li>HTML5 y CSS3</li>
-                <li>Fundamentos de algoritmos</li>
-                <li>Trabajo en equipo</li>
-                <li>Creatividad y organización</li>
-            </ul>
+
+            <div class="habilidades-grid">
+                <span>Trabajo en equipo</span>
+                <span>Creatividad</span>
+                <span>Profesionalismo</span>
+                <span>Microsoft Excel</span>
+                <span>PSeInt</span>
+            </div>
         </section>
 
+        <!-- CONTACTO -->
         <section id="contacto" class="tarjeta contacto">
             <h2>Información de contacto</h2>
-            <p><strong>Correo:</strong> britany.olivo@example.com</p>
-            <p><strong>Ciudad:</strong> Ecuador</p>
-            <p><strong>Área de interés:</strong> Desarrollo web y tecnología</p>
+
+            <div class="datos-contacto">
+                <p>
+                    <strong>Correo:</strong>
+                    <a href="mailto:bolivom2@uteq.edu.ec">
+                        bolivom2@uteq.edu.ec
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Ciudad:</strong>
+                    Santo Domingo, Ecuador
+                </p>
+
+                <p>
+                    <strong>Perfil:</strong>
+                    Estudiante de Ingeniería en Sistemas
+                </p>
+            </div>
+
+            <a class="boton-contacto"
+               href="mailto:bolivom2@uteq.edu.ec">
+                Enviar correo
+            </a>
         </section>
+
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Britany Olivo | Currículum Vitae</p>
+        <p>
+            &copy; 2026 Britany Lisseth Olivo Mendieta |
+            Currículum Vitae
+        </p>
     </footer>
 
 </body>
